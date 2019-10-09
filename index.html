@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft" rel="stylesheet" type="text/css"/> 
     <link rel="icon" href="https://cdn.discordapp.com/attachments/629835093958983693/629930903522508821/minecrafter.png">
     <style>
 @import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
@@ -12,8 +12,8 @@
 @font-face {
     font-family: "Minecraft";
     src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot");
-    src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") $
-}
+    src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg"); 
+} 
 
 body {
     font-family: 'Minecraft', Fallback, sans-serif;
@@ -22,15 +22,15 @@ body {
     grid-template-rows: 10vw 20vw 10vw;
     grid-gap: 1em;
     background-image: url("https://cdn.discordapp.com/attachments/629835093958983693/629931079230554112/Minecraft-shaders-1.14-Beyond-Belief-Shaders.png");
-    background-size: cover;
+background-size: cover;
     opacity: .8;
     margin: 0 auto;
     max-width: 56em;
     padding: 1em 0;
   }
-
+  
   header{
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 5;      
   }
   footer {
     grid-column: 1 / span 5;
@@ -42,38 +42,41 @@ body {
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
                       transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
                       transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                      transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                      transparent 75%, transparent);
     behavior: url(/pie/PIE.htc);
   }
-
+  
   main {
     grid-column: 1 / span 3;
   }
-
+  
   aside {
     grid-column: span 2;
   }
-
+  
   @media (max-width: 700px) {
-
+    
     main,
     aside {
       grid-column: 1 / span 5;
     }
-
+    
   }
-
+  
   header,
   main,
   aside,
   footer {
-    background-color: #8FC85C;
+    background-color: #8FC85C;        
     display: flex;
     justify-content: center;
   }
-
+  
   header,
   footer {
-      padding: .5em;
+      padding: .5em;    
   }
 
 ul, a{
@@ -103,6 +106,7 @@ main{
     margin: 0;
     background-color: darkolivegreen;
 }
+
 img#join{
     height: 50%;
 }
@@ -119,19 +123,17 @@ img#join{
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Discord</a></li>
             </ul>
-        </nav>
+        </nav>  
     </header>
     <main>
         <h3>Amelians start their first days of the season!</h3>
-  </main>
+    </main>
     <aside>
         <iframe id="discord" src="https://discordapp.com/widget?id=619129991812087828&theme=dark" allowtransparency="true" frameborder="0"></iframe>
     </aside>
     <footer>
         <h4>Join Us @</h4>
         <img id="join" src="https://cdn.discordapp.com/attachments/629835093958983693/629930899730989076/192cb9459cbc0f9e73e2591b700f1857.svg" alt="DiscordApp">
-    </footer>
+    </footer>  
 </body>
 </html>
-
-
