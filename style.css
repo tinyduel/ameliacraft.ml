@@ -112,7 +112,6 @@ nav a {
   color: green;
   text-decoration: none;
   font-size: 1.2rem;
-  /* text-transform: uppercase; */
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -237,3 +236,31 @@ footer{
     text-align: center;
 }
 
+div.foreground{
+  opacity: .5;
+}
+
+img#skins{
+  float: right;
+  padding-right: 2em;
+  mix-blend-mode: multiply;
+}
+
+img.slideshow{
+  width: 100vw;
+  border: 2px solid green;
+  position: inherit;
+  top: 10em;
+}
+
+div.article > p{
+  color:whitesmoke;
+  padding: 1.5em;
+}
+
+@media screen and (min-width: 600px){
+  img.slideshow{
+    margin-left: 2.5em;
+    width: 50%;
+  }
+}
